@@ -1,6 +1,6 @@
 //PASSO 01 - SEQUÊNCIAS BÁSICAS
 //1) Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
-console.log("Olá, Mundo!");
+//console.log("Olá, Mundo!");
 
 /* 2) Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boasvindas
 para ela:
@@ -80,9 +80,9 @@ sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
 
 const larguraParede = parseFloat(prompt("Qual a largura da parede? "));
 const alturaParede = parseFloat(prompt("Qual a altura da parede? "));
-const metrosQuadrados = alturaParede * larguraParede;
-console.log("A área total a ser pintada é de " + metrosQuadrados + 
-" m², e a quantidade de tinta necessária é de " + (metrosQuadrados / 2) + " litros");
+const metrosQuadrados = (alturaParede * larguraParede).toFixed(2);
+console.log("A área total a ser pintada é de " + metrosQuadrados +
+" m², e a quantidade de tinta necessária é de " + (metrosQuadrados / 2) + " litros.");
 */
 
 /* 10) Crie um programa que leia o preço de um produto, calcule e mostre o seu
